@@ -42,17 +42,18 @@
   --bs-danger: #dc3545;
   --bs-light: #f8f9fa;
   --bs-dark: #212529;
-  --bs-primary-rgb: 189, 93, 56;
+  --bs-primary-rgb: 5, 147, 143;
+  /*BLOCK COLOR ABOVE*/
   --bs-secondary-rgb: 108, 117, 125;
   --bs-success-rgb: 25, 135, 84;
   --bs-info-rgb: 13, 202, 240;
   --bs-warning-rgb: 255, 193, 7;
   --bs-danger-rgb: 220, 53, 69;
   --bs-light-rgb: 248, 249, 250;
-  --bs-dark-rgb: 33, 37, 41;
+  --bs-dark-rgb: 56, 147, 189;
   --bs-white-rgb: 255, 255, 255;
   --bs-black-rgb: 0, 0, 0;
-  --bs-body-color-rgb: 33, 37, 41;
+  --bs-body-color-rgb: 56, 147, 189;
   --bs-body-bg-rgb: 255, 255, 255;
   --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
@@ -73,7 +74,8 @@
   --bs-border-radius-xl: 1rem;
   --bs-border-radius-2xl: 2rem;
   --bs-border-radius-pill: 50rem;
-  --bs-link-color: #38B1BD;
+  /*LINK COLOR BELOW*/
+  --bs-link-color: #026362;
   --bs-link-hover-color: #974a2d;
   --bs-code-color: #d63384;
   --bs-highlight-bg: #fff3cd;
@@ -10666,7 +10668,7 @@ textarea.form-control-lg {
   }
   .py-xxl-2 {
     padding-top: 0.5rem !important;
-    padding-bottom: 0.5rem !important;
+    padding-bottom: 0.5rem !important;45, 120, 135
   }
   .py-xxl-3 {
     padding-top: 1rem !important;
@@ -10830,6 +10832,7 @@ body {
   padding-top: 3.375rem;
   color: #6c757d;
 }
+/*ABOVE = general text COLOR */
 
 @media (min-width: 992px) {
   body {
@@ -10877,7 +10880,7 @@ p.lead {
   text-transform: uppercase;
 }
 #sideNav .navbar-toggler:focus {
-  outline-color: #d48a6e;
+  outline-color: #3893BD;
 }
 
 @media (min-width: 992px) {
@@ -10903,6 +10906,8 @@ p.lead {
     max-height: 10rem;
     border: 0.5rem solid rgba(255, 255, 255, 0.2);
   }
+  /* above = imagecircle color*/
+  
   #sideNav .navbar-collapse {
     display: flex;
     align-items: flex-start;
@@ -10921,13 +10926,14 @@ p.lead {
     display: block;
   }
 }
+ /*SOCIAL ICONS COLOR! */ 
 .social-icons .social-icon {
   display: inline-flex;
   align-items: center;
   justify-content: center;
   height: 3.5rem;
   width: 3.5rem;
-  background-color: #495057;
+  background-color: #026362;
   color: #fff;
   border-radius: 100%;
   font-size: 1.5rem;
@@ -10937,7 +10943,7 @@ p.lead {
   margin-right: 0;
 }
 .social-icons .social-icon:hover {
-  background-color: #3893BD;
+  background-color: #018f8d;
 }
 
 .dev-icons {
